@@ -8,7 +8,7 @@ import { FlutterDriver } from '../driver';
 import { log } from '../logger';
 
 const MAX_RETRY_COUNT = 10;
-const RETRY_BACKOFF = 300000;
+const RETRY_BACKOFF = 5000;
 
 class WebSocketDummy { }
 
